@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C243918153264EA00F5B20D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C243917153264EA00F5B20D /* UIKit.framework */; };
+		9C24391A153264EA00F5B20D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C243919153264EA00F5B20D /* Foundation.framework */; };
+		9C24391C153264EA00F5B20D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C24391B153264EA00F5B20D /* CoreGraphics.framework */; };
+		9C24391E153264EA00F5B20D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C24391D153264EA00F5B20D /* CoreData.framework */; };
+		EB59E43F157212D800D92D51 /* UseOfTransport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB59E43D157212D800D92D51 /* UseOfTransport.xcdatamodeld */; };
+		EBD098BD15714A0200771062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD098BC15714A0200771062 /* AppDelegate.m */; };
+		EBD098C315714A2100771062 /* AddUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD098C015714A2100771062 /* AddUserViewController.m */; };
+		EBD098C415714A2100771062 /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD098C215714A2100771062 /* UserListViewController.m */; };
+		EBD098C915714A2E00771062 /* AddUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD098C615714A2E00771062 /* AddUserView.m */; };
+		EBD098CA15714A2E00771062 /* UserListView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD098C815714A2E00771062 /* UserListView.m */; };
+		EBD098CF15714A3F00771062 /* AddKindOfTransporttViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD098CB15714A3F00771062 /* AddKindOfTransporttViewController.m */; };
+		EBD098D015714A3F00771062 /* TransportListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD098CE15714A3F00771062 /* TransportListViewController.m */; };
+		EBD098D515714A4C00771062 /* AddKindOfTransportView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD098D215714A4C00771062 /* AddKindOfTransportView.m */; };
+		EBD098D615714A4C00771062 /* TransportListView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD098D415714A4C00771062 /* TransportListView.m */; };
+		EBD098DB15714A5D00771062 /* KindTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD098D815714A5D00771062 /* KindTransport.m */; };
+		EBD098DC15714A5D00771062 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD098DA15714A5D00771062 /* User.m */; };
+		EBD098E315714A7200771062 /* KindOfTransports.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBD098DD15714A7200771062 /* KindOfTransports.plist */; };
+		EBD098E415714A7200771062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD098DE15714A7200771062 /* main.m */; };
+		EBD098E715714A7200771062 /* Users.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBD098E215714A7200771062 /* Users.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C243913153264EA00F5B20D /* UseOfTransport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UseOfTransport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C243917153264EA00F5B20D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C243919153264EA00F5B20D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C24391B153264EA00F5B20D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C24391D153264EA00F5B20D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB59E43E157212D800D92D51 /* UseOfTransport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UseOfTransport.xcdatamodel; sourceTree = "<group>"; };
+		EBD098BB15714A0200771062 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = UseOfTransport/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		EBD098BC15714A0200771062 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = UseOfTransport/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		EBD098BF15714A2100771062 /* AddUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddUserViewController.h; path = "UseOfTransport/Classes/User Listing/View Controllers/AddUserViewController.h"; sourceTree = SOURCE_ROOT; };
+		EBD098C015714A2100771062 /* AddUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddUserViewController.m; path = "UseOfTransport/Classes/User Listing/View Controllers/AddUserViewController.m"; sourceTree = SOURCE_ROOT; };
+		EBD098C115714A2100771062 /* UserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserListViewController.h; path = "UseOfTransport/Classes/User Listing/View Controllers/UserListViewController.h"; sourceTree = SOURCE_ROOT; };
+		EBD098C215714A2100771062 /* UserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserListViewController.m; path = "UseOfTransport/Classes/User Listing/View Controllers/UserListViewController.m"; sourceTree = SOURCE_ROOT; };
+		EBD098C515714A2E00771062 /* AddUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddUserView.h; path = "UseOfTransport/Classes/User Listing/Views/AddUserView.h"; sourceTree = SOURCE_ROOT; };
+		EBD098C615714A2E00771062 /* AddUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddUserView.m; path = "UseOfTransport/Classes/User Listing/Views/AddUserView.m"; sourceTree = SOURCE_ROOT; };
+		EBD098C715714A2E00771062 /* UserListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserListView.h; path = "UseOfTransport/Classes/User Listing/Views/UserListView.h"; sourceTree = SOURCE_ROOT; };
+		EBD098C815714A2E00771062 /* UserListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserListView.m; path = "UseOfTransport/Classes/User Listing/Views/UserListView.m"; sourceTree = SOURCE_ROOT; };
+		EBD098CB15714A3F00771062 /* AddKindOfTransporttViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddKindOfTransporttViewController.m; path = "UseOfTransport/Classes/Transports Listing/View Controllers/AddKindOfTransporttViewController.m"; sourceTree = SOURCE_ROOT; };
+		EBD098CC15714A3F00771062 /* AddKindOfTransportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddKindOfTransportViewController.h; path = "UseOfTransport/Classes/Transports Listing/View Controllers/AddKindOfTransportViewController.h"; sourceTree = SOURCE_ROOT; };
+		EBD098CD15714A3F00771062 /* TransportListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransportListViewController.h; path = "UseOfTransport/Classes/Transports Listing/View Controllers/TransportListViewController.h"; sourceTree = SOURCE_ROOT; };
+		EBD098CE15714A3F00771062 /* TransportListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransportListViewController.m; path = "UseOfTransport/Classes/Transports Listing/View Controllers/TransportListViewController.m"; sourceTree = SOURCE_ROOT; };
+		EBD098D115714A4C00771062 /* AddKindOfTransportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddKindOfTransportView.h; path = "UseOfTransport/Classes/Transports Listing/Views/AddKindOfTransportView.h"; sourceTree = SOURCE_ROOT; };
+		EBD098D215714A4C00771062 /* AddKindOfTransportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddKindOfTransportView.m; path = "UseOfTransport/Classes/Transports Listing/Views/AddKindOfTransportView.m"; sourceTree = SOURCE_ROOT; };
+		EBD098D315714A4C00771062 /* TransportListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransportListView.h; path = "UseOfTransport/Classes/Transports Listing/Views/TransportListView.h"; sourceTree = SOURCE_ROOT; };
+		EBD098D415714A4C00771062 /* TransportListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransportListView.m; path = "UseOfTransport/Classes/Transports Listing/Views/TransportListView.m"; sourceTree = SOURCE_ROOT; };
+		EBD098D715714A5D00771062 /* KindTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KindTransport.h; path = "UseOfTransport/Classes/Core Data Entities/KindTransport.h"; sourceTree = SOURCE_ROOT; };
+		EBD098D815714A5D00771062 /* KindTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KindTransport.m; path = "UseOfTransport/Classes/Core Data Entities/KindTransport.m"; sourceTree = SOURCE_ROOT; };
+		EBD098D915714A5D00771062 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = "UseOfTransport/Classes/Core Data Entities/User.h"; sourceTree = SOURCE_ROOT; };
+		EBD098DA15714A5D00771062 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = "UseOfTransport/Classes/Core Data Entities/User.m"; sourceTree = SOURCE_ROOT; };
+		EBD098DD15714A7200771062 /* KindOfTransports.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = KindOfTransports.plist; path = UseOfTransport/KindOfTransports.plist; sourceTree = SOURCE_ROOT; };
+		EBD098DE15714A7200771062 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = UseOfTransport/main.m; sourceTree = SOURCE_ROOT; };
+		EBD098DF15714A7200771062 /* UseOfTransport-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "UseOfTransport-Info.plist"; path = "UseOfTransport/UseOfTransport-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EBD098E015714A7200771062 /* UseOfTransport-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UseOfTransport-Prefix.pch"; path = "UseOfTransport/UseOfTransport-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		EBD098E215714A7200771062 /* Users.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Users.plist; path = UseOfTransport/Users.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C243910153264EA00F5B20D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C243918153264EA00F5B20D /* UIKit.framework in Frameworks */,
+				9C24391A153264EA00F5B20D /* Foundation.framework in Frameworks */,
+				9C24391C153264EA00F5B20D /* CoreGraphics.framework in Frameworks */,
+				9C24391E153264EA00F5B20D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C243908153264EA00F5B20D = {
+			isa = PBXGroup;
+			children = (
+				EB59E43D157212D800D92D51 /* UseOfTransport.xcdatamodeld */,
+				9C24391F153264EA00F5B20D /* UseOfTransport */,
+				9C243916153264EA00F5B20D /* Frameworks */,
+				9C243914153264EA00F5B20D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C243914153264EA00F5B20D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C243913153264EA00F5B20D /* UseOfTransport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C243916153264EA00F5B20D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C243917153264EA00F5B20D /* UIKit.framework */,
+				9C243919153264EA00F5B20D /* Foundation.framework */,
+				9C24391B153264EA00F5B20D /* CoreGraphics.framework */,
+				9C24391D153264EA00F5B20D /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C24391F153264EA00F5B20D /* UseOfTransport */ = {
+			isa = PBXGroup;
+			children = (
+				9C2439341532652500F5B20D /* Application */,
+				9C2439331532651C00F5B20D /* Users Listing */,
+				9C2439351532657700F5B20D /* Transports Listing */,
+				9C2439401532673000F5B20D /* Core Data Entites */,
+				9C243920153264EA00F5B20D /* Supporting Files */,
+			);
+			name = UseOfTransport;
+			path = StudentTracker;
+			sourceTree = "<group>";
+		};
+		9C243920153264EA00F5B20D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD098DE15714A7200771062 /* main.m */,
+				EBD098DF15714A7200771062 /* UseOfTransport-Info.plist */,
+				EBD098E015714A7200771062 /* UseOfTransport-Prefix.pch */,
+				EBD098DD15714A7200771062 /* KindOfTransports.plist */,
+				EBD098E215714A7200771062 /* Users.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C2439331532651C00F5B20D /* Users Listing */ = {
+			isa = PBXGroup;
+			children = (
+				9C2439391532668400F5B20D /* View Controllers */,
+				9C24393A1532668900F5B20D /* Views */,
+			);
+			name = "Users Listing";
+			sourceTree = "<group>";
+		};
+		9C2439341532652500F5B20D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EBD098BB15714A0200771062 /* AppDelegate.h */,
+				EBD098BC15714A0200771062 /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		9C2439351532657700F5B20D /* Transports Listing */ = {
+			isa = PBXGroup;
+			children = (
+				9C24393E1532671000F5B20D /* View Controllers */,
+				9C24393F1532671600F5B20D /* Views */,
+			);
+			name = "Transports Listing";
+			sourceTree = "<group>";
+		};
+		9C2439391532668400F5B20D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBD098BF15714A2100771062 /* AddUserViewController.h */,
+				EBD098C015714A2100771062 /* AddUserViewController.m */,
+				EBD098C115714A2100771062 /* UserListViewController.h */,
+				EBD098C215714A2100771062 /* UserListViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9C24393A1532668900F5B20D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBD098C515714A2E00771062 /* AddUserView.h */,
+				EBD098C615714A2E00771062 /* AddUserView.m */,
+				EBD098C715714A2E00771062 /* UserListView.h */,
+				EBD098C815714A2E00771062 /* UserListView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9C24393E1532671000F5B20D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBD098CC15714A3F00771062 /* AddKindOfTransportViewController.h */,
+				EBD098CB15714A3F00771062 /* AddKindOfTransporttViewController.m */,
+				EBD098CD15714A3F00771062 /* TransportListViewController.h */,
+				EBD098CE15714A3F00771062 /* TransportListViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9C24393F1532671600F5B20D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBD098D115714A4C00771062 /* AddKindOfTransportView.h */,
+				EBD098D215714A4C00771062 /* AddKindOfTransportView.m */,
+				EBD098D315714A4C00771062 /* TransportListView.h */,
+				EBD098D415714A4C00771062 /* TransportListView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9C2439401532673000F5B20D /* Core Data Entites */ = {
+			isa = PBXGroup;
+			children = (
+				EBD098D715714A5D00771062 /* KindTransport.h */,
+				EBD098D815714A5D00771062 /* KindTransport.m */,
+				EBD098D915714A5D00771062 /* User.h */,
+				EBD098DA15714A5D00771062 /* User.m */,
+			);
+			name = "Core Data Entites";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C243912153264EA00F5B20D /* UseOfTransport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C243930153264EA00F5B20D /* Build configuration list for PBXNativeTarget "UseOfTransport" */;
+			buildPhases = (
+				9C24390F153264EA00F5B20D /* Sources */,
+				9C243910153264EA00F5B20D /* Frameworks */,
+				9C243911153264EA00F5B20D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UseOfTransport;
+			productName = StudentTracker;
+			productReference = 9C243913153264EA00F5B20D /* UseOfTransport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C24390A153264EA00F5B20D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Aron's IT Consultancy";
+			};
+			buildConfigurationList = 9C24390D153264EA00F5B20D /* Build configuration list for PBXProject "UseOfTransport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C243908153264EA00F5B20D;
+			productRefGroup = 9C243914153264EA00F5B20D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C243912153264EA00F5B20D /* UseOfTransport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C243911153264EA00F5B20D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD098E315714A7200771062 /* KindOfTransports.plist in Resources */,
+				EBD098E715714A7200771062 /* Users.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C24390F153264EA00F5B20D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD098BD15714A0200771062 /* AppDelegate.m in Sources */,
+				EBD098C315714A2100771062 /* AddUserViewController.m in Sources */,
+				EBD098C415714A2100771062 /* UserListViewController.m in Sources */,
+				EBD098C915714A2E00771062 /* AddUserView.m in Sources */,
+				EBD098CA15714A2E00771062 /* UserListView.m in Sources */,
+				EBD098CF15714A3F00771062 /* AddKindOfTransporttViewController.m in Sources */,
+				EBD098D015714A3F00771062 /* TransportListViewController.m in Sources */,
+				EBD098D515714A4C00771062 /* AddKindOfTransportView.m in Sources */,
+				EBD098D615714A4C00771062 /* TransportListView.m in Sources */,
+				EBD098DB15714A5D00771062 /* KindTransport.m in Sources */,
+				EBD098DC15714A5D00771062 /* User.m in Sources */,
+				EBD098E415714A7200771062 /* main.m in Sources */,
+				EB59E43F157212D800D92D51 /* UseOfTransport.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C24392E153264EA00F5B20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C24392F153264EA00F5B20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C243931153264EA00F5B20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UseOfTransport/UseOfTransport-Prefix.pch";
+				INFOPLIST_FILE = "UseOfTransport/UseOfTransport-Info.plist";
+				PRODUCT_NAME = UseOfTransport;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C243932153264EA00F5B20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UseOfTransport/UseOfTransport-Prefix.pch";
+				INFOPLIST_FILE = "UseOfTransport/UseOfTransport-Info.plist";
+				PRODUCT_NAME = UseOfTransport;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C24390D153264EA00F5B20D /* Build configuration list for PBXProject "UseOfTransport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C24392E153264EA00F5B20D /* Debug */,
+				9C24392F153264EA00F5B20D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C243930153264EA00F5B20D /* Build configuration list for PBXNativeTarget "UseOfTransport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C243931153264EA00F5B20D /* Debug */,
+				9C243932153264EA00F5B20D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB59E43D157212D800D92D51 /* UseOfTransport.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB59E43E157212D800D92D51 /* UseOfTransport.xcdatamodel */,
+			);
+			currentVersion = EB59E43E157212D800D92D51 /* UseOfTransport.xcdatamodel */;
+			name = UseOfTransport.xcdatamodeld;
+			path = UseOfTransport/UseOfTransport.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9C24390A153264EA00F5B20D /* Project object */;
+}

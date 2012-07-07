@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>u0</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>1</string>
+		<key>transportID</key>
+		<string>0</string>
+		<key>userName</key>
+		<string>Aron López</string>
+		<key>userID</key>
+		<string>u0</string>
+	</dict>
+	<key>u1</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>1</string>
+		<key>transportID</key>
+		<string>1</string>
+		<key>userName</key>
+		<string>Juan Ramirez</string>
+		<key>userID</key>
+		<string>u1</string>
+	</dict>
+	<key>u2</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>1</string>
+		<key>transportID</key>
+		<string>3</string>
+		<key>userName</key>
+		<string>Francisco Cuenca</string>
+		<key>userID</key>
+		<string>u2</string>
+	</dict>
+	<key>u3</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>1</string>
+		<key>transportID</key>
+		<string>2</string>
+		<key>userName</key>
+		<string>Roberto Suarez</string>
+		<key>userID</key>
+		<string>u3</string>
+	</dict>
+    <key>u4</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>2</string>
+		<key>transportID</key>
+		<string>4</string>
+		<key>userName</key>
+		<string>Roberto López</string>
+		<key>userID</key>
+		<string>u4</string>
+	</dict>
+	<key>u5</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>2</string>
+		<key>transportID</key>
+		<string>3</string>
+		<key>userName</key>
+		<string>Oscar Patillo</string>
+		<key>userID</key>
+		<string>u5</string>
+	</dict>
+	<key>u6</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>2</string>
+		<key>transportID</key>
+		<string>1</string>
+		<key>userName</key>
+		<string>Patricia González</string>
+		<key>userID</key>
+		<string>u6</string>
+	</dict>
+	<key>u7</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>2</string>
+		<key>transportID</key>
+		<string>0</string>
+		<key>userName</key>
+		<string>Pedro Dominguez</string>
+		<key>userID</key>
+		<string>u7</string>
+	</dict>
+	<key>u8</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>3</string>
+		<key>transportID</key>
+		<string>1</string>
+		<key>userName</key>
+		<string>Begoña Diez</string>
+		<key>userID</key>
+		<string>u8</string>
+	</dict>
+	<key>u9</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>3</string>
+		<key>transportID</key>
+		<string>4</string>
+		<key>userName</key>
+		<string>Oliver Lamas</string>
+		<key>userID</key>
+		<string>u9</string>
+	</dict>
+	<key>u10</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>3</string>
+		<key>transportID</key>
+		<string>2</string>
+		<key>userName</key>
+		<string>Esteban Pérez</string>
+		<key>userID</key>
+		<string>u10</string>
+	</dict>
+	<key>u11</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>3</string>
+		<key>transportID</key>
+		<string>4</string>
+		<key>userName</key>
+		<string>Javier Blanco</string>
+		<key>userID</key>
+		<string>u11</string>
+	</dict>
+	<key>u12</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>4</string>
+		<key>transportID</key>
+		<string>0</string>
+		<key>userName</key>
+		<string>Carlos Trobadero</string>
+		<key>userID</key>
+		<string>u12</string>
+	</dict>
+	<key>u13</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>4</string>
+		<key>transportID</key>
+		<string>1</string>
+		<key>userName</key>
+		<string>Sheyla Terranova</string>
+		<key>userID</key>
+		<string>u13</string>
+	</dict>
+    <key>u14</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>4</string>
+		<key>transportID</key>
+		<string>1</string>
+		<key>userName</key>
+		<string>David Jerez</string>
+		<key>userID</key>
+		<string>u14</string>
+	</dict>
+	<key>u15</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>5</string>
+		<key>transportID</key>
+		<string>2</string>
+		<key>userName</key>
+		<string>Matias Moreno</string>
+		<key>userID</key>
+		<string>u15</string>
+	</dict>
+	<key>u16</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>5</string>
+		<key>transportID</key>
+		<string>3</string>
+		<key>userName</key>
+		<string>Pedro Fernandez</string>
+		<key>userID</key>
+		<string>u16</string>
+	</dict>
+    <key>u17</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>5</string>
+		<key>transportID</key>
+		<string>4</string>
+		<key>userName</key>
+		<string>Tristán Serrano</string>
+		<key>userID</key>
+		<string>u17</string>
+	</dict>
+	<key>u18</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>5</string>
+		<key>transportID</key>
+		<string>1</string>
+		<key>userName</key>
+		<string>Esteban Vaquero</string>
+		<key>userID</key>
+		<string>u18</string>
+	</dict>
+	<key>u19</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>6</string>
+		<key>transportID</key>
+		<string>3</string>
+		<key>userName</key>
+		<string>Benito Alvarez</string>
+		<key>userID</key>
+		<string>u19</string>
+	</dict>
+    <key>u20</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>6</string>
+		<key>transportID</key>
+		<string>3</string>
+		<key>userName</key>
+		<string>Gabriel García</string>
+		<key>userID</key>
+		<string>u20</string>
+	</dict>
+	<key>u21</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>6</string>
+		<key>transportID</key>
+		<string>0</string>
+		<key>userName</key>
+		<string>Cristina Mendez</string>
+		<key>userID</key>
+		<string>u21</string>
+	</dict>
+	<key>u22</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>7</string>
+		<key>transportID</key>
+		<string>1</string>
+		<key>userName</key>
+		<string>Marco Moreno</string>
+		<key>userID</key>
+		<string>u22</string>
+	</dict>
+	<key>u23</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>7</string>
+		<key>transportID</key>
+		<string>1</string>
+		<key>userName</key>
+		<string>Begoña Cuenca</string>
+		<key>userID</key>
+		<string>u23</string>
+	</dict>
+	<key>u24</key>
+	<dict>
+		<key>dayOfWeek</key>
+		<string>7</string>
+		<key>transportID</key>
+		<string>2</string>
+		<key>userName</key>
+		<string>Mercedes Sanz</string>
+		<key>userID</key>
+		<string>u24</string>
+	</dict>
+	</dict>
+</plist>
